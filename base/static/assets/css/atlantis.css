@@ -1,16 +1,5 @@
 /*!
 
- =========================================================
- * Atlantis Bootstrap Dashboard (Bootstrap 4)
- =========================================================
-
- * Product Page: http://www.themekita.com/
- * Copyright 2018 Theme Kita (http://www.themekita.com/)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 [Table of contents]
 
 * Background
@@ -80,7 +69,7 @@ danger-color : #f3545d
 *:focus {
   outline: 0 !important;
   -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
+  box-shadow: 3px 3px 3px 10px !important; }
 
 /*   Typography    */
 body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, .alert, a, .td-name, td, button.close {
@@ -89,13 +78,13 @@ body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, 
   font-family: 'Lato', sans-serif; }
 
 body {
-  font-size: 14px;
-  color: #575962; }
+  font-size: 16px;
+  color: #0f0; }
 
 a {
   color: #1572E8; }
   a:hover, a:focus {
-    color: #1269DB; }
+    color: #fff; }
 
 h1,
 .h1 {
@@ -246,13 +235,13 @@ label {
 body {
   min-height: 100vh;
   position: relative;
-  background: #f9fbfd; }
+  background: #222222; }
 
 .no-bd {
-  border: 0px !important; }
+  border: 1px !important; }
 
 .no-box-shadow {
-  box-shadow: none !important; }
+  box-shadow: 3px 3px 3px 3px !important; }
 
 /*    margin-top negative   */
 .mt--5, .my--5 {
@@ -284,7 +273,7 @@ body {
   height: 100vh; }
 
 .main-header {
-  background: #ffffff;
+  background: #444;
   min-height: 60px;
   width: 100%;
   position: fixed;
